@@ -1,0 +1,334 @@
+
+body {
+  /* background-image:url(../images/lcbackground.jpg);
+  background-repeat:no-repeat;
+  */
+  
+    font-family: 'Belleza-Regular', sans-serif;
+}
+
+
+
+.header {
+  background-image:url(../images/silhouttelc2.png);
+  background-repeat:no-repeat;
+  height:100px;
+  margin: 0;
+  background-size: cover;
+  z-index: 10;
+  opacity: 0;
+  }
+  
+
+h1 {
+    font-family: 'Vogue', sans-serif;
+
+   }
+
+
+
+h2 {
+  font-family:'Belleza-Regular', sans-serif; 
+  font-size: 22px;
+  font-weight: 200;
+  text-align: left;
+
+ }
+
+   h3 {
+    font-family:'Belleza-Regular', sans-serif; 
+    font-size: 20px;
+    font-weight: 200;
+    text-align: left;
+
+   }
+
+   h4 {
+    font-family:'Belleza-Regular', sans-serif; 
+    font-size: 16px;
+    font-weight: regular;
+    text-align: left;
+
+   }
+
+   h6 {
+    font-family:'Belleza-Regular', sans-serif; 
+    font-size: 22px;
+    font-weight: 200;
+    text-align: center;
+  
+   }
+
+   .flex-container {
+    flex-direction: column;
+  }   
+  
+  .navigation {
+    font-family:'Belleza-Regular', sans-serif; 
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    border-bottom: thin solid #292727;
+    justify-content: flex-end;
+    background-image:url(.../images/silhouttelc2.png);
+    background-repeat:no-repeat;
+    
+   }
+
+  
+.navigation a{
+
+  padding-right: 20px;
+  font-family:'Belleza-Regular', sans-serif; 
+  font-size: 16px;
+  text-decoration: none;
+  color: #7B7B80;
+}
+
+
+
+
+.contact1 {
+  font-family:'Belleza-Regular', sans-serif; 
+  height: 50px;
+  align-items: left;
+  margin-left: auto;
+  
+ }
+
+
+.contact1 a{
+
+padding-right: 20px;
+font-family:'Belleza-Regular', sans-serif; 
+font-size: 16px;
+text-decoration: none;
+color: #7B7B80;
+}
+
+
+ 
+
+   .myName {
+    font-family: 'Vogue', serif;
+    font-weight: 300;
+    font-size:xx-large;
+    text-align: left;
+   }
+
+
+  
+  
+   /* Write your selector for .separator below */
+   .seperator {
+       width: 1100px;
+   }
+  
+   /*below this is inserting a new css style guide*/
+
+   nav {
+    background-image:url(.../images/chheader100.png);
+    background-repeat:no-repeat;
+  }
+   /* target the class of inline-block below */
+  .inline-block {
+      display: inline-block;
+      font-family: 'montserrat', arial, sans-serif;
+      padding: 30px;
+      
+    /* per holly video another way of typing in
+    the padding space in the long version would
+    be the example of padding below. The above
+    version says ok you want to apply this padding
+    all the way around of this container.
+    Padding is on the Inside
+    Margin is on the outside */
+    /* padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    text-decoration: none;
+    */
+  }
+  
+    /* target the class of bottomnav below */
+    .bottomnav {
+      font-family:'Belleza-Regular', sans-serif; 
+      font-size: 18px;
+      font-weight: 200;
+        text-align: center;
+        
+        display: flexbox;
+        margin-top: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        text-justify:auto; 
+       
+        text-decoration: none;
+        color: #7B7B80;
+
+
+
+      /* per holly video another way of typing in
+      the padding space in the long version would
+      be the example of padding below. The above
+      version says ok you want to apply this padding
+      all the way around of this container.
+      Padding is on the Inside
+      Margin is on the outside 
+      padding-top: 200px;
+      padding-right: 15px;
+      padding-bottom: 15px;
+      padding-left: 15px;
+      text-decoration: none; */
+    }
+    section {
+      display: grid;
+      justify-content: center;
+      align-content: center;
+      width: 90%;
+      margin-left: 20%;
+      padding-block: 30px;
+    }
+
+    /* this is for the text in the body of home page */
+    .container3 {
+      /* display: flex; */
+      /* or inline-flex */
+      /* justify-content: space-between; */
+      justify-content:center;
+      align-items: flex;
+      width: 97%;
+      flex-direction: row;
+
+    }
+
+
+    .containermyname {
+
+      justify-content: space-between;
+      align-items: flex;
+      width: 85%;
+      flex-direction: row;
+    }
+
+
+
+    /* this is for the top navigation */
+    .container2 {
+      display: flexbox;
+      /* justify-content: space-between;
+      flex-direction: column;
+      align-items: center; */
+    }
+
+    .item {
+      height: 50px;
+      /* flex-grow: 1; */
+      flex: flex-grow;
+      display: flex;
+      align-items: center;
+      margin-left: auto;
+      margin-right: auto;
+    
+
+    }
+
+    .item2 {
+      flex-grow: 2;
+      font-family:'Belleza-Regular', sans-serif; 
+      font-size: 18px;
+      color: #555557;
+      font-weight: 200;
+      text-align: left;
+    }
+
+
+    .break {
+      flex-basis: 5%;
+    }
+
+    .line {
+      border-bottom: thin solid #292727;
+    }
+
+    .bottomnav a{
+
+      padding-right: 20px;
+      padding-left: 20px;
+      text-decoration: none;
+      color: #7B7B80;
+   }
+   
+   /* target the class of .left below */
+  .left{
+    height: 500px;
+    float: left;
+    width: 30%;
+    /* background-color: lightblue; */
+    text-align: center;
+  }
+  /* target the class of .right below */
+  .right{
+    height: 200px;
+    float:right;
+    width: 200px;
+    padding-right: 30px;
+  }
+
+
+
+  .classcomments1 {
+    justify-content: right;
+    align-content: right;
+    width: 75%;
+    padding-block: 10px;
+    font-family: 'Belleza-Regular';
+    font-size: 14px;
+    color:crimson;
+  }
+
+  .classcomments2 {
+    justify-content: left;
+    align-content: left;
+    width: 75%;
+    padding-block: 30px;
+    font-family: 'Belleza-Regular';
+    font-size: 14px;
+    color:crimson;
+    margin-left:3%;
+  }
+
+  .classcomments3 {
+    justify-content: center;
+    align-content: center;
+    width: 75%;
+    margin-left: 23%;
+    padding-block: 30px;
+    font-family: 'Belleza-Regular';
+    font-size: 14px;
+    color:crimson;
+  }
+
+  .paraedit {
+    align-content: left;
+    width: 30%;
+    font-family: 'Belleza-Regular';
+    font-size: 16px;
+    color: #23252C;
+
+  }
+
+
+  @font-face {
+    font-family: 'Belleza-Regular';
+    src: url(../fonts/Belleza-Regular.ttf) format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Vogue';
+    src: url(../fonts/Vogue.ttf) format('truetype');
+  }
+
+ 
