@@ -311,6 +311,20 @@ color: #7B7B80;
     color:crimson;
   }
 
+
+
+  .classcomments4{
+    justify-content: center;
+    align-content: center;
+    width: 75%;
+    margin-left: 23%;
+    padding-block: 30px;
+    font-family: 'Belleza-Regular';
+    font-size: 18px;
+    color:#312e2e;
+  }
+
+
   .paraedit {
     align-content: left;
     width: 30%;
